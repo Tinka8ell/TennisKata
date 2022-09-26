@@ -34,4 +34,18 @@ class TennisTest {
         // Assert
         assertEquals(expected, actual, "Player 1 wins first point");
     }
+
+    @Test
+    void testScorePlayer2() {
+        // Arrange
+        String expected = "love: 15";
+        Tennis tennis = new Tennis(PLAYER_1, PLAYER_2);
+
+        // Act
+        String actual = tennis.score(PLAYER_2);
+
+        // Assert
+        assertEquals(expected, actual, "Player 2 wins first point");
+    }
+
 }
