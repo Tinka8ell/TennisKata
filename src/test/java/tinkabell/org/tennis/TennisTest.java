@@ -6,6 +6,9 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class TennisTest {
 
+    public static final String PLAYER_1 = "player1";
+    public static final String PLAYER_2 = "player2";
+
     @Test
     void tennis() {
         // Arrange
@@ -17,5 +20,18 @@ class TennisTest {
 
         // Assert
         assertEquals(expected, actual, "Should just return what was input");
+    }
+
+    @Test
+    void testScorePlayer1() {
+        // Arrange
+        String expected = "15: love";
+        Tennis tennis = new Tennis(PLAYER_1, PLAYER_2);
+
+        // Act
+        String actual = tennis.score(PLAYER_1);
+
+        // Assert
+        assertEquals(expected, actual, "Player 1 wins first point");
     }
 }
