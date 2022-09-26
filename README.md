@@ -9,6 +9,8 @@ I will be using a Git commit style of:
     * there is limited space for commit titles
     * the three stage process used a blue color for the refactor stage
 
+A [video of this exercise](https://drive.google.com/file/d/1mYWhpSopQtWQXXH7RKEyBy_ws5zWSW-a/view?usp=sharing) is available.
+
 To see the wood for the trees:
 * [The Brief](#the-brief)
 * [The Plan](#the-plan)
@@ -55,3 +57,8 @@ to seed the TDD process and check all is working with Git, etc.
 * score(String name) return the score - assume name won the point
 
 ## The Result
+
+Well not as far as I had hoped and 45 minutes was longer than my brief.  
+Unfortunately TDD tends to start slowly, 
+but I have laid the foundations to complete the exercise.
+I have place a video of the Zoom call I recorded it on [here](https://drive.google.com/file/d/1mYWhpSopQtWQXXH7RKEyBy_ws5zWSW-a/view?usp=sharing).
