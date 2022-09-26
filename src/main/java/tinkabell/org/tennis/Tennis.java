@@ -3,7 +3,7 @@ package tinkabell.org.tennis;
 public class Tennis {
 
     public String tennis(String input) {
-        return null;
+        return input;
     }
 
     public static void main(String[] args) {

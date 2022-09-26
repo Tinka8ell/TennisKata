@@ -1,10 +1,12 @@
 package tinkabell.org.tennis;
 
+import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class TennisTest {
 
-    @org.junit.jupiter.api.Test
+    @Test
     void tennis() {
         // Arrange
         String expected = "Hello World";
